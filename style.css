@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-seriff;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://cdn.discordapp.com/attachments/801056885771337798/1145385188923289711/pexels-photo-531880.png);
+	background-size: cover;
+}
+.navbar{
+	width: 35;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.download-btn{
+	background-color: DodgerBlue;
+	color: white;
+	padding: 1rem 2rem;
+	font-size: 2rem;
+	text-decoration: none;
+	border-radius: 5px;
+}
